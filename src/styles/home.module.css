@@ -1,0 +1,79 @@
+.border{
+    border: 1px solid black;
+}
+.mainContainer{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+}
+.Heading{
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(45deg, grey, navy);
+    color: white;
+    padding: 1%;
+}
+.showBtn{
+    width: 5rem;
+    height: 1.7rem;
+    font-size: large;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 15px;
+    background: none;
+    font-weight: 700;
+    color: rgb(87, 87, 87);
+    font-family: monospace;
+}
+.showBtn:hover{
+    cursor: pointer;
+    background-color: rgb(116, 116, 116);;
+    color: white;
+}
+.habitList{
+    margin-top: 3%;
+    display: felx;
+    justify-content: center;
+}
+.habit{
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1%;
+    color: rgb(87, 87, 87);
+}
+.habit div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.habitName{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.icnClas{
+    height: 1em;
+    width: 1em;
+}
+.status{
+    width: 30%;
+}
+.status img{
+    font-size: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.status img:hover{
+    cursor: pointer;
+}
+.sevenDaysStatus{
+    width: 30%;
+}
+.sevenDaysStatus button{
+    width: 8rem;
+}

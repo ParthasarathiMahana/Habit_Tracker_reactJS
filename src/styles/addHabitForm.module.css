@@ -1,0 +1,40 @@
+.addHabitForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+.nameOfHabitInput{
+    width: 15rem;
+    height: 1.5rem;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 15px;
+    outline: none;
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+    font-family: monospace;
+    color: rgb(87, 87, 87);
+    margin-right: 1rem;
+}
+.addBtn{
+    width: 5rem;
+    height: 1.7rem;
+    font-size: large;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 15px;
+    background: none;
+    font-weight: 700;
+    color: rgb(87, 87, 87);
+    font-family: monospace;
+}
+.addBtn:hover{
+    cursor: pointer;
+    background-color: rgb(116, 116, 116);;
+    color: white;
+}
